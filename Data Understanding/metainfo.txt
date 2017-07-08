@@ -1,0 +1,12 @@
+Name of Quantlet:  Data Understanding
+ 
+Published in:      na
+  
+Description:       'Understand the data and do initial preprocessing steps. look at the summary and structure of the data. Calculate
+                    percentage of value unknown. Create plots, histograms and boxplots for each variable. Find class imbalance ratio
+                    for outcome variable. Vizualize relationship between each variable and outcome variable. rename variables with unclear
+                    names. find and delete errors. '
+ 
+Keywords:          Data understanding, summary, str, ggplot, boxplot, histogram, data visualization
+
+Author:            Mark Lakshman, Doan Hai Anh Bui, Sai Niranjan Mohanamurali

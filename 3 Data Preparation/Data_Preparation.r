@@ -46,3 +46,7 @@ MinMaxTrainSMOTE = SMOTE(y ~ ., MinMaxTrain, perc.over = 100, k = 5, perc.under 
 plot(MinMaxTrainSMOTE$y, main = "y")
 scaledTrainSMOTE = SMOTE(y ~ ., scaledTrain, perc.over = 100, k = 5, perc.under = 100)
 plot(scaledTrainSMOTE$y, main = "y")
+
+# find out new class imbalance ratio in outcome variable y (66% is 'yes')
+length(bankTrainSMOTE$y[bankTrainSMOTE$y == 1])/length(bankTrainSMOTE$y) * 100
+                                

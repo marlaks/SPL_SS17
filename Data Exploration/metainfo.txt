@@ -1,0 +1,9 @@
+Name of Quantlet:  Data Exploration
+ 
+Published in:      na
+  
+Description:       Data Exploration. Visualise Relationships between selected variables using plot and ggplot
+ 
+Keywords:          Data Exploration, plot, ggplot
+
+Author:            Mark Lakshman, Doan Hai Anh Bui, Sai Niranjan Mohanamurali

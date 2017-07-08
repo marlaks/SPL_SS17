@@ -1,0 +1,12 @@
+Name of Quantlet:  Data preparation
+ 
+Published in:      na
+  
+Description:       'Prepares Data for modeling phase. Encodes outcome variable to 1 and 0. Creates only numeric version of Dataset through Dummy variables.
+                   creates two different versions from this through z-score normalization and min-max-scaling. Creates test and train
+                   sets for each dataset. Oversamples the YES class of the outcome variable with SMOTE algorithm. Plots the new distributions
+                   of the outcome variable.'
+ 
+Keywords:          Data preparation, Dummy encoding, z-score, min-max-scaling, SMOTE
+
+Author:            Mark Lakshman, Doan Hai Anh Bui, Sai Niranjan Mohanamurali

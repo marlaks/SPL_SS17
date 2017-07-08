@@ -1,4 +1,4 @@
-Name of Quantlet:  Data preparation
+Name of Quantlet:  Data_Preparation
  
 Published in:      na
   

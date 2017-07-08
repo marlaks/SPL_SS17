@@ -1,0 +1,11 @@
+Name of Quantlet:  Model evaluation
+ 
+Published in:      na
+  
+Description:       'Runs each model 10 times on oversampled data with different random splits using for loop. 
+                   Saves accuracy, precision and recall of each iteration'
+ 
+Keywords:          'model evaluation, for loop, SMOTE, neural network, support vector machine, decision tree, logistic regression, accuracy,
+                   precision, recall'
+
+Author:            Mark Lakshman, Doan Hai Anh Bui, Sai Niranjan Mohanamurali

@@ -1,4 +1,4 @@
-Name of Quantlet:  Modeling
+Name of Quantlet:  Modeling.r
  
 Published in:      na
   

@@ -1,0 +1,10 @@
+Name of Quantlet:  Results
+ 
+Published in:      na
+  
+Description:       'Plots accuracy, precision and recall of the ten iterations of each model in evaluation phase. Computes means and 
+                    standard deviations of precision and recall of each model and saves them in a dataframe'
+ 
+Keywords:          accuracy, precision, recall, ggplot, mean, standard deviation
+
+Author:            Mark Lakshman, Doan Hai Anh Bui, Sai Niranjan Mohanamurali

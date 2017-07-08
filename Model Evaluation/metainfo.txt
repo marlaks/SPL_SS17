@@ -1,4 +1,4 @@
-Name of Quantlet:  model_evaluation
+Name of Quantlet:  model_evaluation.r
  
 Published in:      na
   

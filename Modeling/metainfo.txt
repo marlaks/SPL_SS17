@@ -1,0 +1,10 @@
+Name of Quantlet:  Modeling
+ 
+Published in:      na
+  
+Description:       Runs each model and computes accuracy, precision, recall and confusion matrix
+ 
+Keywords:          'modeling, accuracy, precision, recall, confusion matrix, neural network, support vector machine, decision tree,
+                   logistic regression'
+
+Author:            Mark Lakshman, Doan Hai Anh Bui, Sai Niranjan Mohanamurali

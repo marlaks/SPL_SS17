@@ -1,4 +1,4 @@
-Name of Quantlet:  Data_Exploration
+Name of Quantlet:  Data_Exploration.r
  
 Published in:      na
   

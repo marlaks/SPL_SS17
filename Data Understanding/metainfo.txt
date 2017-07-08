@@ -1,4 +1,4 @@
-Name of Quantlet:  Data Understanding
+Name of Quantlet:  Data_Understanding
  
 Published in:      na
   

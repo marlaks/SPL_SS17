@@ -1,6 +1,6 @@
-Name of Quantlet:  Data_Preparation.r
+Name of Quantlet:  SPL_Data_Preparation.r
  
-Published in:      na
+Published in:      Statistical programming languages - Student Project on ''Binary classification in bank marketing''
   
 Description:       'Prepares Data for modeling phase. Encodes outcome variable to 1 and 0. Creates only numeric version of Dataset through Dummy variables.
                    creates two different versions from this through z-score normalization and min-max-scaling. Creates test and train

@@ -1,6 +1,6 @@
-Name of Quantlet:  Modeling.r
+Name of Quantlet:  SPL_Modeling.r
  
-Published in:      na
+Published in:      Statistical programming languages - Student Project on ''Binary classification in bank marketing''
   
 Description:       Runs each model and computes accuracy, precision, recall and confusion matrix
  

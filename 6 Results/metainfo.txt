@@ -1,6 +1,6 @@
-Name of Quantlet:  Results.r
+Name of Quantlet:  SPL_Results.r
  
-Published in:      na
+Published in:      Statistical programming languages - Student Project on ''Binary classification in bank marketing''
   
 Description:       'Plots accuracy, precision and recall of the ten iterations of each model in evaluation phase. Computes means and 
                     standard deviations of precision and recall of each model and saves them in a dataframe'

@@ -1,6 +1,6 @@
-Name of Quantlet:  Data_Understanding.r
+Name of Quantlet:  SPL_Data_Understanding.r
  
-Published in:      na
+Published in:      Statistical programming languages - Student Project on ''Binary classification in bank marketing''
   
 Description:       'Understand the data and do initial preprocessing steps. look at the summary and structure of the data. Calculate
                     percentage of value unknown. Create plots, histograms and boxplots for each variable. Find class imbalance ratio

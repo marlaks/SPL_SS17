@@ -1,6 +1,6 @@
-Name of Quantlet:  Data_Exploration.r
+Name of Quantlet:  SPL_Data_Exploration.r
  
-Published in:      na
+Published in:      Statistical programming languages - Student Project on ''Binary classification in bank marketing''
   
 Description:       Data Exploration. Visualise Relationships between selected variables using plot and ggplot
  

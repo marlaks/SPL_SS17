@@ -1,6 +1,6 @@
-Name of Quantlet:  model_evaluation.r
+Name of Quantlet:  SPL_model_evaluation.r
  
-Published in:      na
+Published in:      Statistical programming languages - Student Project on ''Binary classification in bank marketing''
   
 Description:       'Runs each model 10 times on oversampled data with different random splits using for loop. 
                    Saves accuracy, precision and recall of each iteration'

@@ -58,6 +58,11 @@ treeSMOTE.accuracy = Accuracy(treeSMOTE.results, bankTest$y)
 treeSMOTE.precision = Precision(bankTest$y, treeSMOTE.results, positive = "1")
 treeSMOTE.recall    = Recall(bankTest$y, treeSMOTE.results, positive = "1")
 
+# plot dt
+install.packages("rpart.plot")
+library(rpart.plot)
+rpart.plot(treeSMOTE, type = 2)
+
 ############ Neural Network (nn)##############
 library(nnet)
 

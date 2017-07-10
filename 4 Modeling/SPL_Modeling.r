@@ -54,7 +54,7 @@ library("rpart")
 treeSMOTE         = rpart(y ~ ., data = bankTrainSMOTE, method = "class")
 treeSMOTE.results = predict(treeSMOTE, bankTest, type = "class")
 ConfusionMatrix(treeSMOTE.results, bankTest$y)
-treeSMOTE.accuracy = Accuracy(treeSMOTE.results, bankTest$y)
+treeSMOTE.accuracy  = Accuracy(treeSMOTE.results, bankTest$y)
 treeSMOTE.precision = Precision(bankTest$y, treeSMOTE.results, positive = "1")
 treeSMOTE.recall    = Recall(bankTest$y, treeSMOTE.results, positive = "1")
 

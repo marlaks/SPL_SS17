@@ -11,10 +11,10 @@ plot(subset(bank, y == "yes")$job, subset(bank, y == "yes")$age, main = "boxplot
 plot(subset(bank, y == "yes")$`last contact month`, subset(bank, y == "yes")$job)
 ggplot(subset(bank, age < 25 & job == "student"), aes(x = `last contact month`)) + geom_bar(aes(fill = y), 
     position = "fill") + geom_bar(aes(y = (..count..)/sum(..count..), alpha = 0.3), show.legend = FALSE) + 
-    geom_hline(yintercept = 0.1127) + ggtitle("students below 25 by month")
+    geom_hline(yintercept = 0.1127) + ggtitle("students below 25 by month") + theme(panel.background = element_rect(fill = "transparent"))
 ggplot(subset(bank, age > 60 & job == "retired"), aes(x = `last contact month`)) + geom_bar(aes(fill = y), 
     position = "fill") + geom_bar(aes(y = (..count..)/sum(..count..), alpha = 0.3), show.legend = FALSE) + 
-    geom_hline(yintercept = 0.1127) + ggtitle("retired people above 60 by month")
+    geom_hline(yintercept = 0.1127) + ggtitle("retired people above 60 by month") + theme(panel.background = element_rect(fill = "transparent"))
 
 # month and duration:
 plot(bank$`last contact month`, bank$`last contact duration (sec)`, main = "boxplot of month and last call duration", 

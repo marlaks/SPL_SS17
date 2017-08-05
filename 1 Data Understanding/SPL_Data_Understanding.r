@@ -24,11 +24,11 @@ install.packages("purrr")
 library(purrr)
 
 bank %>% keep(is.numeric) %>% gather() %>% ggplot(aes(value)) + facet_wrap(~key, scales = "free") + 
-    geom_histogram()
+    geom_histogram() + theme(panel.background = element_rect(fill = "transparent"))
 bank %>% keep(is.numeric) %>% gather() %>% ggplot(aes("value", value)) + facet_wrap(~key, scales = "free") + 
-    geom_boxplot()
+    geom_boxplot() + theme(panel.background = element_rect(fill = "transparent"))
 bank %>% keep(is.factor) %>% gather() %>% ggplot(aes(value)) + facet_wrap(~key, scales = "free") + 
-    geom_bar()
+    geom_bar() + theme(panel.background = element_rect(fill = "transparent"))
 # due to different amount of levels in each factor, not all are readable in the graphs In that
 # case, to get information about a specific variable, a single graph would have to be created
 # for the specific variable. Not done here because not necessary
@@ -40,10 +40,10 @@ length(bank$y[bank$y == "no"])/length(bank$y) * 100
 lapply(names(bank), function(a) {
     if (is.factor(bank[[a]])) {
         ggplot(bank, aes_string(x = a)) + geom_bar(aes(fill = bank$y), position = "fill") + geom_hline(yintercept = 0.1127) + 
-            geom_bar(aes(y = (..count..)/sum(..count..), alpha = 0.3), show.legend = FALSE) + ggtitle("distribution of yes/no ratio vs actual contacts")
+            geom_bar(aes(y = (..count..)/sum(..count..), alpha = 0.3), show.legend = FALSE) + ggtitle("distribution of yes/no ratio vs actual contacts") + theme(panel.background = element_rect(fill = "transparent"))
     } else {
         ggplot(bank, aes_string(x = a)) + geom_histogram(aes(fill = bank$y), position = "fill") + 
-            geom_hline(yintercept = 0.1127) + geom_density(aes(y = ..scaled..)) + ggtitle("distribution of yes/no ratio vs actual contacts")
+            geom_hline(yintercept = 0.1127) + geom_density(aes(y = ..scaled..)) + ggtitle("distribution of yes/no ratio vs actual contacts") + theme(panel.background = element_rect(fill = "transparent"))
     }
 })
 

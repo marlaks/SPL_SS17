@@ -40,10 +40,12 @@ length(bank$y[bank$y == "no"])/length(bank$y) * 100
 lapply(names(bank), function(a) {
     if (is.factor(bank[[a]])) {
         ggplot(bank, aes_string(x = a)) + geom_bar(aes(fill = bank$y), position = "fill") + geom_hline(yintercept = 0.1127) + 
-            geom_bar(aes(y = (..count..)/sum(..count..), alpha = 0.3), show.legend = FALSE) + ggtitle("distribution of yes/no ratio vs actual contacts") + theme(panel.background = element_rect(fill = "transparent"))
+            geom_bar(aes(y = (..count..)/sum(..count..), alpha = 0.3), show.legend = FALSE) + 
+            ggtitle("distribution of yes/no ratio vs actual contacts") + theme(panel.background = element_rect(fill = "transparent"))
     } else {
         ggplot(bank, aes_string(x = a)) + geom_histogram(aes(fill = bank$y), position = "fill") + 
-            geom_hline(yintercept = 0.1127) + geom_density(aes(y = ..scaled..)) + ggtitle("distribution of yes/no ratio vs actual contacts") + theme(panel.background = element_rect(fill = "transparent"))
+            geom_hline(yintercept = 0.1127) + geom_density(aes(y = ..scaled..)) + 
+            ggtitle("distribution of yes/no ratio vs actual contacts") + theme(panel.background = element_rect(fill = "transparent"))
     }
 })
 

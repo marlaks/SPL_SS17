@@ -8,5 +8,5 @@ Information on running the code:
 
 The quantlets are numbered 1 to 6 and have to be executed in this order. The first Quantlet starts on the dataset "bank-additional-full Kopie.csv" which can be found on the first page of this repository. All subsequent quantlets run on the results of the prior quantlet.
 
-The code includes a random split of the dataset into train and test sets at various points in the code. In rare cases, these random splits can cause a value to only appear in the test sets without appearing in the train sets, which confuses the models. In this case, the code needs to be run again for the models to function. 
+The code includes a random split of the dataset into train and test sets at various points in the code. In rare cases, these random splits can cause a value to only appear in the test sets without appearing in the train sets, which confuses the models. In this case, the code needs to be repeated for the models to function properly. 
 
